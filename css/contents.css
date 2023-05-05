@@ -13,6 +13,13 @@
   display: flex;
   flex-direction: column;
 }
+.city-weather_imformation:first-child {
+  position: relative;
+}
+.fa-xmark {
+  position: absolute;
+  right: 0;
+}
 .city-weather_imformation:last-child {
   flex-basis: 300px;
   justify-content: flex-end;
