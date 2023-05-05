@@ -7,6 +7,11 @@
     <title>🌦️ weather</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contents.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <script
+      src="https://kit.fontawesome.com/b6b675a5b4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <main id="main">
@@ -43,10 +48,13 @@
         </section>
       </article>
       <aside class="search">
-        <section class="search">
-          <input type="text" />
+        <section class="search-input">
+          <input class="search-input_city" type="text" />
+          <i class="glass fa-solid fa-magnifying-glass fa-xl"></i>
         </section>
-        <section class="favorites"></section>
+        <section class="favorites">
+          <ul></ul>
+        </section>
       </aside>
     </main>
     <script src="app.js"></script>
