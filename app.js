@@ -6,7 +6,7 @@ const weather = document.querySelector(".weather");
 const form = document.querySelector(".form");
 const $article = document.querySelector(".contents");
 
-const API_KEY = "82643d6b318cc6008f2aca60615e06b2";
+const API_KEY = config.apikey;
 
 const cityData = [
   "Seoul",
